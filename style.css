@@ -72,8 +72,16 @@ a{
 }
 
 .tbl-csv tr td {
-    font-size: 12px;
+    font-size: 12px !important;
     text-align: center !important;
+}
+
+.tbl-csv thead tr td {
+  font-weight: bold;
+}
+
+.tbl-csv2 thead tr td {
+  font-weight: bold;
 }
 
 .tbl-csv thead{
